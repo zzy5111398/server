@@ -1,8 +1,23 @@
 Python Flask订餐系统
 =====================
-##启动
-* export ops_config=local|production && python manage.py runserver
+## 进入虚拟环境
+> Linux环境
 
+    . venv/bin/activate
+> windows环境
+
+    venv\scripts\activate
+## 启动
+> Linux环境
+    
+    export ops_config=production&& python manager.py runserver
+> windows环境
+
+    set ops_config=local&& python manager.py runserver 
+## git push
+```bash
+git push -u origin master
+```
 ##flask-sqlacodegen
 
     flask-sqlacodegen 'mysql://root:123456@127.0.0.1/food_db' --outfile "common/models/model.py"  --flask
