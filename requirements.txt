@@ -4,4 +4,3 @@ flask-debugtoolbar
 mysqlclient
 flask_script
 requests
-uwsgi

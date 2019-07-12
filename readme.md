@@ -7,6 +7,8 @@ Python Flask订餐系统
 > windows环境
 
     venv\scripts\activate
+## 安装加载包
+    pip install -r requirements.txt
 ## 启动
 > Linux环境
     
@@ -52,6 +54,6 @@ git push -u origin master
 
 
 
-##可参考资料
+## 可参考资料
 * [python-Flask（jinja2）语法：过滤器](https://www.jianshu.com/p/3127ac233518)
 * [SQLAlchemy 各种查询语句写法](https://wxnacy.com/2017/08/14/python-2017-08-14-sqlalchemy-filter/)
